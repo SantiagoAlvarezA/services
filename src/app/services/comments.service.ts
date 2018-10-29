@@ -5,11 +5,10 @@ import {Observable} from 'rxjs'
 @Injectable({
   providedIn: 'root'
 })
-export class PostsService {
+export class CommentsService {
 
   constructor(private http: HttpClient) { }
-
   getPosts():Observable<any>{
-    return this.http.get('https://jsonplaceholder.typicode.com/posts');
+    return this.http.get('https://jsonplaceholder.typicode.com/photos');
   }
 }

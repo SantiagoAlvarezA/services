@@ -9,6 +9,8 @@ export class HeaderComponent implements OnInit {
     home:string = 'Inicio';
     listStudents:string = 'Lista de estudiantes';
     registrationStudent:string = 'Registro de estudiantes';
+    commets:string = 'lista de comentarios';
+
     search:string = 'Buscar';
     constructor() { }
     ngOnInit() { }

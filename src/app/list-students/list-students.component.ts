@@ -10,7 +10,7 @@ export class ListStudentsComponent implements OnInit {
 
     data = null;
     constructor(private postService: PostsService) {
-        postService.GetPosts().subscribe(
+        postService.getPosts().subscribe(
             data => {
                 this.data = data;
             }
